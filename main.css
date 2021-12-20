@@ -1,5 +1,72 @@
+option{
+	font-family: monospace	;
+}
 body{
-	background:red;
+	background:black;
 	font-family: arial;
 
+}
+h1{
+	font-size: 3rem;
+	color: ghostwhite;
+}
+h2{
+	font-size: 34px;
+	color: white;
+}
+h3{
+	color: white	;}
+
+	h4{
+	font-size: 34px;
+	color: ghostwhite;
+}
+h5{
+    font-size: 1rem;
+	color: white;
+}
+h6{
+	font-size: 	1rem;
+	color: white	;}
+
+p{
+	color: white;
+}
+ul{color: white;}
+
+header{
+	background-color: #ff8177;
+	background-image: linear-gradient(to top,#ff0844 0%,#ff5733 100%);
+}
+
+header::after{
+		content	: "";
+		display: table;
+		clear: both;
+}
+nav{
+	float: none;
+	text-align: 	center	;
+
+
+
+}
+nav a{
+	border: none;
+	border-radius: 	4;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: 	inline-block;
+
+	padding: 25px;
+	margin: 40px;
 }
