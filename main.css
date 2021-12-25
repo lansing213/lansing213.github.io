@@ -77,7 +77,9 @@ h6{
 		display: 	inline-block	;
 		margin:30px;
 }
-
+#contacts_body{
+	background-color: white	;
+}
 p{
 	padding: 30px;
 	color: white;
@@ -125,8 +127,22 @@ header::after{
 	float: none;
 	text-align: 	center	;
 
-
-
+}
+#github_image{
+		background: white;
+		padding-right: 150px;
+		width: 100%:
+}
+#github_image_li{
+	display: inline-block;
+}
+#linkedin_image_li{
+	display: inline-block;
+	float: center;
+}
+#linkedin_image{
+	height: 60px;
+	width: 70px;
 }
 nav::after{
 	content	: "";
@@ -147,7 +163,7 @@ nav ul {
 	list-style: none;
 }
 nav li {
-	display: 	inline-block;
+	display: inline-block;
 
 	padding: 11px;
 	margin: 20px;
