@@ -8,6 +8,10 @@ body{
 	color: white;
 
 }
+html{
+	scroll-behavior: smooth;
+
+}
 .web_title{
 	font-family: Times New Roman;
 	font-style: italic	;
@@ -24,6 +28,7 @@ h1{
 
 h2{
 	padding: 	30px;
+	margin: 	20px;
 	font-size: 34px;
 	color: white;
 }
@@ -66,7 +71,7 @@ h5{
 }
 #Languages_p1{
 	display: 	inline-block	;
-	margin: 30px;
+	margin: 40px;
 }
 h6{
 	font-size: 	1rem;
@@ -75,7 +80,8 @@ h6{
 }
 #Languages_p2{
 		display: 	inline-block	;
-		margin:30px;
+		padding: 40px;
+		margin:40px;
 }
 #contacts_body{
 	background-color: white	;
