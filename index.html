@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,11 +15,11 @@
 	
 		<nav class = "navbar">
 		<ul>
-	<li><a href = "#Home">Home</a></li>
-	<li><a href = "#About">About</a></li>
-	<li><a href = "#Resume">Resume</a></li>
-	<li><a href = "#Projects">Projects</a></li>
-	<li><a href="#Contacts">Contacts</a></li>
+	<li id = home_bar><a href = "#Home">Home</a></li>
+	<li id = about_bar> <a href = "#About">About</a></li>
+	<li id = resume_bar><a href = "#Resume">Resume</a></li>
+	<li id = projects_bar><a href = "#Projects">Projects</a></li>
+	<li id = contacts_bar><a href="#Contacts">Contacts</a></li>
 
 		</ul>
 		</nav>
@@ -25,12 +27,12 @@
 <section id="Home">	
 
 
-	<h1 class="web_title"><center>Xiutong Jing</center> </h1>
+	<h1 class="web_title" onmouseover = "changeColor(this)"><center>Xiutong Jing</center> </h1>
 	
 	</section>
 <section id = "About">	
 <div>
-	<h2 id = "About_header">About me</h2>
+	<h2 id = "About_header" >About me</h2>
 
 
 	<p id="About_p">I am a graduate from the University of Alberta. Currently looking for software developer career.</p>
@@ -74,12 +76,13 @@
 	<h2>Contacts</h2>
 	<div id="contacts_body">
 		
-	<div id="github_image_li"><a href="https://github.com/lansing213"><input id="github_image" type="Image" name="image1" src="GitHub-Mark-64px.png" ></div> </a>
-	<div id="linkedin_image_li"><a href="https://www.linkedin.com/in/xiutong-jing-b99b51127/"><input id="linkedin_image" type="Image" name="image2" src="LI-In-Bug.png" > 
+			<div id="github_image_li"><a href="https://github.com/lansing213"><input id="github_image"  type="Image" name="image1" src="GitHub-Mark-64px.png" ></div> </a>
+			<div id="linkedin_image_li"><a href="https://www.linkedin.com/in/xiutong-jing-b99b51127/"><input id="linkedin_image" type="Image" name="image2" src="LI-In-Bug.png" > 
+			</div>
 	</div>
-	</div>
+	 <script src= "script.js"type="text/javascript"></script>
 </body>
- 
+
 
 
 </html>

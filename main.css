@@ -163,6 +163,9 @@ nav a{
 	text-transform: uppercase;
 
 }
+nav a:hover{
+	color: white;
+}
 nav ul {
 	margin: 0;
 	padding: 0;
