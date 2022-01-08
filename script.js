@@ -1,5 +1,9 @@
+import React from 'react'
 
-document.write("dsfsdfsdfgsdgdfbvgcbg");
+let dsf = "dsfsdfsdfgsdgdfbvgcbg";
+let result = dsf.fontcolor("white");
+document.write("fsdfs");
+document.getElementById("resume_header").innerHTML = result;
 
 
 

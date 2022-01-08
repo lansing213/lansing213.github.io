@@ -1,0 +1,14 @@
+#button1{
+    font-family: 'Roboto';
+    background-color: thistle;
+    color:darkmagenta;
+    font-size: large;
+    text-align: right;
+    margin-left:30px;
+    position: relative;
+    top: -40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
