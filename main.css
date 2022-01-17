@@ -83,10 +83,41 @@ h5{
 		padding: 40px;
 		margin:40px;
 }
-#contacts_body{
-	background-color: white	;
+.contacts_body{
+	background-color: black	;
 	width: 100%;
 	margin-bottom: -8px;
+}
+.contacts_body ul{
+		position:absolute;
+		text-align: center;
+		color: white;
+		
+		display: flex;
+
+
+
+}
+.contacts_body ul li{
+	list-style: none;
+	margin: 0 120px;
+	font-size: 70px;
+	
+}
+ .contacts_body a{
+	position: relative;
+	background: black;
+	color: aliceblue;
+} 
+.contacts_body a :hover{
+	color: steelblue;
+	transform: translate(0,-10px);
+
+
+
+}
+.contacts_body ul li .fa{
+	background: #837c7e;
 }
 p{
 	padding: 30px;
@@ -123,26 +154,7 @@ header::after{
 	text-align: center;
 
 }
-#github_image{
-	
-		background: white;
-		padding-right: 150px;
-		margin-left: 60px;
-}
-#github_image_li{
-	display: inline-block;
-}
-#linkedin_image_li{
-	display: inline-block;
 
-}
-#linkedin_image{
-	position: relative;
-	background-color: white;
-	height: 60px;
-	width: 70px;
-
-}
 nav::after{
 	content	: "";
 	display: table;
@@ -162,6 +174,7 @@ nav a{
 }
 nav a:hover{
 	color: white;
+	
 }
 nav ul {
 	width: 100%;
