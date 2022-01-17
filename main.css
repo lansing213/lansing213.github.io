@@ -119,6 +119,18 @@ h5{
 .contacts_body ul li .fa{
 	background: #837c7e;
 }
+#email :hover .email_tooltip{
+	visibility: visible;
+	opacity: 1;
+}
+#email_tooltip{
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+
+
 p{
 	padding: 30px;
 	color: white;
