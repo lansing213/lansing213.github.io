@@ -1,2 +1,2 @@
 # lansing213.github.io
- Xiutong Jing's website built by HTML, CSS, JavaScript.
+ Xiutong Jing's website built by HTML, CSS, JavaScript(with React.js).
