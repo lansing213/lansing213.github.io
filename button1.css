@@ -1,6 +1,6 @@
 #button1{
     font-family: 'Roboto';
-    background: linear-gradient(80deg,#0162c8,thistle);
+    background: linear-gradient(to right,#0162c8,thistle);
     color:darkmagenta;
     font-size: large;
     text-align: right;
@@ -9,11 +9,19 @@
     top: -40px;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.5s;
+    transition: transform 0.1s;
+    filter:sepia(20%);
+}
+#button1:hover::before{
+    animation: sun 8s infinite;
 
 }
+
+
 #button1:hover{
+    animation: sun 8s infinite;
     color: darkturquoise;
+    transition-delay:1s;
     background:firebrick ;
     box-shadow: 0 0 5px firebrick
                     0 0 10px firebrick

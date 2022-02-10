@@ -140,7 +140,7 @@ ul{color: white;
 
 header{
 	background-color: #ff8177;
-	background-image: linear-gradient(to top,#ff0844 0%,#ff5733 100%);
+	background-image: linear-gradient(to bottom right, lightblue 0%,#f5e4e1 100%);
 }
 
 header::after{
@@ -158,9 +158,9 @@ header::after{
 	top: 0;
 	width: 100%;
 	z-index: 	1;
-	border-radius: 5px;
+	
 	background-color: #ff8177;
-	background-image: linear-gradient(to top,#ff0844 0%,#ff5733 100%);
+	background-image: linear-gradient(to right,#ff0848 ,#ff5733);
 	position: 	fixed	;
 	float: none;
 	text-align: center;
