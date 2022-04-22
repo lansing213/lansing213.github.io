@@ -1,7 +1,7 @@
 #button1{
     font-family: 'Roboto';
-    background: linear-gradient(to right,#0162c8,thistle);
-    color:darkmagenta;
+    background: linear-gradient(to right,lightgreen,lightblue);
+    color:black;
     font-size: large;
     text-align: right;
     margin-left:30px;
@@ -10,7 +10,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.1s;
-    filter:sepia(20%);
 }
 #button1:hover::before{
     animation: sun 8s infinite;

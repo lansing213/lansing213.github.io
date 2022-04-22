@@ -1,10 +1,12 @@
 
 
 body{
-	background:rgb(1, 0, 3);
+	display: grid;
+	background:honeydew;
 	font-family:Arial, Helvetica, sans-serif;
-	color: white;
+	color: black;
 	margin: 0;
+	
 
 }
 html{
@@ -12,9 +14,10 @@ html{
 
 }
 .web_title{
-	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI',
+	 Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-style: italic	;
-	padding-top	: 	110px;
+	padding-top	: 	170px;
 	text-align: center;
 }
 #About_header{
@@ -22,7 +25,7 @@ html{
 }
 h1{
 	font-size: 5rem;
-	color: ghostwhite;
+	color: black;
 	
 }
 
@@ -31,7 +34,6 @@ h2{
 	padding: 	30px;
 	margin: 	20px;
 	font-size: 34px;
-	color: white;
 }
 #Home{
 	padding: 40px;
@@ -46,7 +48,6 @@ h2{
 h3{
 	
 	font-size:21px;
-	color: white	;
 	padding: 	30px;
 
 }
@@ -66,12 +67,10 @@ h3{
 	h4{
 		padding: 	30px;
 	font-size: 34px;
-	color: ghostwhite;
 }
 h5{
 	padding: 	30px;
     font-size: 1rem;
-	color: white;
 }
 #Languages_p1{
 	display: 	inline-block	;
@@ -91,7 +90,6 @@ h5{
 .contacts_body ul{
 		position:absolute;
 		text-align: center;
-		color: white;
 		
 		display: flex;
 
@@ -106,8 +104,8 @@ h5{
 }
  .contacts_body a{
 	position: relative;
-	background: black;
-	color: aliceblue;
+	background: honeydew;
+	color:black;
 } 
 .contacts_body a :hover{
 	color: steelblue;
@@ -133,10 +131,8 @@ h5{
 
 p{
 	padding: 30px;
-	color: white;
 }
-ul{color: white;
-}
+
 
 header{
 	background-color: #ff8177;
@@ -158,9 +154,9 @@ header::after{
 	top: 0;
 	width: 100%;
 	z-index: 	1;
-	
+	border-radius: 1%;
 	background-color: #ff8177;
-	background-image: linear-gradient(to right,#ff0848 ,#ff5733);
+	background-image: linear-gradient(to right,lightblue ,#ff5733);
 	position: 	fixed	;
 	float: none;
 	text-align: center;
