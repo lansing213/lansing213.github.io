@@ -26,7 +26,7 @@ class Button2 extends React.Component {
 
   render() {
     if (this.state.clicked == true) {
-      window.open("https://github.com/CMPUT301W20T18/Bee");
+      window.open("https://github.com/lansing213/Weather-App");
     }
     return (
       <button id="button1" onClick={() => this.setState({ clicked: true })}>
