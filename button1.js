@@ -4,6 +4,8 @@ class Button1 extends React.Component {
     super(props);
     this.state = { clicked: false };
   }
+
+  
   render() {
     if (this.state.clicked == true) {
       window.open("https://github.com/lansing213/Notebook-");
